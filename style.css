@@ -1,0 +1,73 @@
+.logo{
+    display: block;
+    margin: 0px;
+    width: 150px;
+    height: 150px;
+}
+body{
+    font-family: 'Bad Script', cursive;
+    font-family: 'Quattrocento', serif;
+    margin: 0px;
+    padding: 0;
+    height: 570px;
+    color: rgb(255, 255, 255);
+    background:url('pixabay2.png') no-repeat center center/cover;
+    
+}
+.left{
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    display: inline-block;
+}
+.mid{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    border:5px rgb(6, 74, 6)}
+.right{
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 75px;
+}
+.navbar li a:active,.navbar li a:hover{
+    text-decoration: underline;
+    color:rgb(184, 31, 79);
+}
+.button{
+    margin: 5px 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 12, 74);
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.button:hover{background-color: rgb(7, 69, 134)
+}
+.container{
+    border: 5px solid rgb(36, 36, 81);
+    margin: 120px 50px;
+    padding: 35px;
+    width: 20%;
+    border-radius: 10px;
+}
+.form{
+    padding: 5px;
+    margin: 5px;
+}
